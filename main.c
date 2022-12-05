@@ -111,20 +111,6 @@ int main()
         suma(A,B,M,N);
     break;
     }
-
-    for(int i=0;i<1;i++){
-        free(A[i]);
-    }
-    free(A);
-    for(int i=0;i<N;i++){
-        free(B[i]);
-        free(Prod[i]);
-        free(T[i]);
-    }
-    free(B);
-    free(Prod);
-    free(T);
-
  return 0;
 }
 
